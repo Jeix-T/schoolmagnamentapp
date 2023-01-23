@@ -13,13 +13,20 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    // :] Muestra la vista Home
     public IActionResult Index()
     {
         return View();
     }
 
+    // :] Muestra la vista Politicas
     public IActionResult Privacy()
     {
+        return View();
+    }
+
+    // :] Muestra la vista A cerca de
+    public IActionResult About(){
         return View();
     }
 
